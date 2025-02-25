@@ -19,3 +19,171 @@
 .fancy-button:active {
   background-color: blue;
 }
+
+.base-button {
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+
+  box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+  -webkit-box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+  -moz-box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+}
+
+.primary-button {
+    background-color: rgb(34, 89, 255);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+
+    box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+    -webkit-box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+    -moz-box-shadow: 2px 0px 34px 7px rgba(0,0,0,0.36) inset;
+  }
+
+  .primary-button:hover {
+    background-color: blue;
+  }
+
+  .primary-button:active {
+    background-color: darkblue;
+  }
+
+  .secondary-button {
+    background-color: rgb(186, 184, 184);
+    color: white;
+  }
+
+  .secondary-button:hover {
+    background-color: gray;
+  }
+
+  .secondary-button:active {
+    background-color: rgb(80, 80, 80);
+  }
+
+  .success-button {
+    background-color: rgb(2, 150, 2);
+  }
+
+  .success-button:hover {
+    background-color: green;
+  }
+
+  .success-button:active {
+    background-color: darkgreen;
+  }
+
+  .danger-button {
+    background-color: rgb(249, 94, 94);
+  }
+
+  .danger-button:hover {
+    background-color: red;
+  }
+
+  .danger-button:active {
+    background-color: darkred;
+  }
+
+  .warning-button {
+    background-color: rgb(241, 241, 79);
+    color: black;
+  }
+
+  .warning-button:hover {
+    background-color: yellow;
+  }
+
+  .warning-button:active {
+    background-color: rgb(186, 186, 41);
+  }
+
+  .info-button {
+    background-color: rgb(0, 204, 255);
+    color: black;
+  }
+
+  .info-button:hover {
+    background-color: skyblue;
+  }
+
+  .info-button:active {
+    background-color: rgb(18, 134, 181);
+  }
+
+  .outline-button {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: solid;
+  }
+
+  .outline-primary-button {
+    color: rgb(34, 89, 255);
+    border-color: rgb(34, 89, 255);
+  }
+
+  .outline-primary-button:hover {
+    background-color: rgb(34, 89, 255);
+    color: white;
+  }
+
+  .outline-secondary-button {
+    color: rgb(186, 184, 184);
+    border-color: rgb(186, 184, 184);
+  }
+
+  .outline-secondary-button:hover {
+    background-color: rgb(186, 184, 184);
+    color: white;
+  }
+
+  .outline-success-button {
+    color: rgb(2, 150, 2);
+    border-color: rgb(2, 150, 2);
+  }
+
+  .outline-success-button:hover {
+    background-color: rgb(2, 150, 2);
+    color: white;
+  }
+
+  .outline-danger-button {
+    color: rgb(249, 94, 94);
+    border-color: rgb(249, 94, 94);
+  }
+
+  .outline-danger-button:hover {
+    background-color: rgb(249, 94, 94);
+    color: white;
+  }
+
+  .outline-warning-button {
+    color: rgb(241, 241, 79);
+    border-color: rgb(241, 241, 79);
+  }
+
+  .outline-warning-button:hover {
+    background-color: rgb(241, 241, 79);
+    color: black;
+  }
+
+  .outline-info-button {
+    color: rgb(0, 204, 255);
+    border-color: rgb(0, 204, 255);
+  }
+
+  .outline-info-button:hover {
+    background-color: rgb(0, 204, 255);
+    color: black;
+  }
